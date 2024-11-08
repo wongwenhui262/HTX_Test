@@ -32,13 +32,6 @@ Ensure that you have **Python 3.7** or higher installed on your machine. The fol
 - `simpy`
 
 
-
-## Install Dependencies
-
-To install all the necessary dependencies, use the `requirements.txt` file:
-
-`pip install -r requirements.txt`
-
 ## Installation Instructions
 
 First, clone the repository to your local 
