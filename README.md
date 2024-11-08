@@ -51,15 +51,16 @@ First, clone the repository to your local machine:
 git clone https://github.com/yourusername/ED-simulation.git
 cd ED-simulation
 
-##Install Dependencies
+##Install Python libraries
+
 After activating the virtual environment, install the necessary Python libraries by running:
 pip install -r requirements.txt
 
 ##Run the Simulation
 Run the simulation by executing the script:
-python simulate_ed.py
+python Emergency_Department_Simulation.ipynb
 
-#This will run the discrete-event simulation and generate output files, including performance metrics and visualizations.
+##This will run the discrete-event simulation and generate output files, including performance metrics and visualizations.
 
 Usage
 Customizing the Simulation
