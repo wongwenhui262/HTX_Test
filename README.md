@@ -43,10 +43,11 @@ To install all the necessary dependencies, use the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 
-##Installation Instructions
+## Installation Instructions
 
 Clone the Repository
 First, clone the repository to your local machine:
+
 git clone https://github.com/yourusername/ED-simulation.git
 cd ED-simulation
 
