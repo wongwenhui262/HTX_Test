@@ -73,14 +73,14 @@ You can adjust various parameters in the Emergency_Department_Simulation.ipynb s
 - **Staffing Levels:** Number of doctors, nurses, and other medical staff available.
 - **Resource Availability:** Number of treatment cubicles available.
 
-For example, adjusting the number of doctors in the Main ED might look like this:
+For example, adjusting the number of doctors in the Main ED and Fast Track might look like this:
 
 ```python
 # Adjust staffing levels
-number_of_nurses_fasttrack = 3
-number_of_doctors_fasttrack = 2
-number_of_nurses_maind = 5
-number_of_doctors_maind = 4
+number_nurses_miu = 3
+number_doc_miu = 2
+number_nurses = 5
+number_docs = 4
 ```
 
 ### Running Different Scenarios
