@@ -40,6 +40,8 @@ Ensure that you have **Python 3.7** or higher installed on your machine. The fol
 
 To install all the necessary dependencies, use the `requirements.txt` file:
 
+---
+
 ```bash
 pip install -r requirements.txt
 
