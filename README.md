@@ -125,12 +125,12 @@ ED-simulation/
 ├── ed_simulation_output/   # Folder containing output files (plots, data, etc.)
 │   ├── wait_time_histogram.png  # Example output plot
 ├── README.md               # Project documentation (this file)
-└── LICENSE                 # Project license file
+
 ```
 
 ### File Descriptions:
 - **requirements.txt:** Contains the required dependencies for the project.
 - **Emergency_Department_Simulation.ipynb:** The script that runs the simulation and generates results.
-- **ed_simulation_output/:** Folder where simulation outputs (such as plots and CSV data files) are stored.
+- **ed_simulation_output:** Folder where simulation outputs (such as plots) are stored.
 - **README.md:** This file with instructions and documentation.
-- **LICENSE:** The project license file (MIT License).
+
