@@ -45,8 +45,8 @@ First, clone the repository to your local
 machine:
 
 ```
-git clone https://github.com/yourusername/ED-simulation.git
-cd ED-simulation
+git clone https://github.com/wongwenhui262/HTX_Test.git
+cd HTX_Test
 ```
 
 ## Install Python libraries
