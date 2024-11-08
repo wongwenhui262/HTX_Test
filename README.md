@@ -34,76 +34,92 @@ Ensure that you have **Python 3.7** or higher installed on your machine. The fol
 - `seaborn`
 - `simpy`
 
----
+
 
 ## Install Dependencies
 
 To install all the necessary dependencies, use the `requirements.txt` file:
 
----
-
-```
-pip install -r requirements.txt
-
----
+`pip install -r requirements.txt`
 
 ## Installation Instructions
 
-Clone the Repository
-First, clone the repository to your local machine:
----
+First, clone the repository to your local 
+machine:
+
+```
 git clone https://github.com/yourusername/ED-simulation.git
 cd ED-simulation
----
-##Install Python libraries
+```
+
+## Install Python libraries
 
 After activating the virtual environment, install the necessary Python libraries by running:
+
+```
 pip install -r requirements.txt
+```
 
-##Run the Simulation
+## Run the Simulation
+
 Run the simulation by executing the script:
+
+```
 python Emergency_Department_Simulation.ipynb
+```
 
-##This will run the discrete-event simulation and generate output files, including performance metrics and visualizations.
+This will run the discrete-event simulation and generate output files, including performance metrics and visualizations.
 
-Usage
-Customizing the Simulation
+---
+
+## Usage
+
+### Customizing the Simulation
+
 You can adjust various parameters in the simulate_ed.py script to modify how the simulation runs:
 
-Patient Arrival Rates: How often patients arrive in the ED (can be adjusted for both Fast Track and Main ED).
-Service Times: Average time taken for treatment in the Fast Track and Main ED.
-Staffing Levels: Number of doctors, nurses, and other medical staff available.
-Resource Availability: Number of treatment cubicles available.
+- **Patient Arrival Rates:** How often patients arrive in the ED (can be adjusted for both Fast Track and Main ED).
+- **Service Times:** Average time taken for treatment in the Fast Track and Main ED.
+- **Staffing Levels:** Number of doctors, nurses, and other medical staff available.
+- **Resource Availability:** Number of treatment cubicles available.
+
 For example, adjusting the number of doctors in the Main ED might look like this:
+
+```python
 # Adjust staffing levels
 number_of_nurses_fasttrack = 3
 number_of_doctors_fasttrack = 2
 number_of_nurses_maind = 5
 number_of_doctors_maind = 4
-Running Different Scenarios
+```
+
+### Running Different Scenarios
+
 You can run different scenarios to see how changes to staffing levels or patient volume affect performance. This can help you optimize resource allocation and plan for future demand increases.
 
-Simulation Outputs
+---
+
+## Simulation Outputs
+
 After running the simulation, you will see several outputs:
 
-Performance Metrics:
+### Performance Metrics:
+- Average wait times for triage, cubicle assignments, and doctor consultations.
+- Resource utilization rates, such as the percentage of time nurses, doctors, and cubicles are in use.
+- Throughput: The number of patients treated (discharged or admitted).
 
-Average wait times for triage, cubicle assignments, and doctor consultations.
-Resource utilization rates, such as the percentage of time nurses, doctors, and cubicles are in use.
-Throughput: The number of patients treated (discharged or admitted).
-Visualizations:
+### Visualizations:
+- **Wait Time Histogram:** Displays the distribution of patient wait times in the ED.
+- **3D Surface Plots:** Shows the impact of staffing levels on wait times and resource utilization.
+- **Utilization Rates:** Visual representation of how well resources are being used.
 
-Wait Time Histogram: Displays the distribution of patient wait times in the ED.
-3D Surface Plots: Shows the impact of staffing levels on wait times and resource utilization.
-Utilization Rates: Visual representation of how well resources are being used.
-Example Output: Wait Time Histogram
-One of the generated visualizations might be a histogram showing patient wait times. Here is an example (image for illustrative purposes):
+---
 
+## File Structure
 
-This helps to identify bottlenecks and areas in the process that need improvement.
-
-File Structure
 Here is the file structure for the project:
+
+```
 ED-simulation/
 │
 ├── requirements.txt        # List of required Python libraries
@@ -113,10 +129,11 @@ ED-simulation/
 │   ├── throughput_data.csv     # Example output data
 ├── README.md               # Project documentation (this file)
 └── LICENSE                 # Project license file
+```
 
-File Descriptions:
-requirements.txt: Contains the required dependencies for the project.
-simulate_ed.py: The script that runs the simulation and generates results.
-ed_simulation_output/: Folder where simulation outputs (such as plots and CSV data files) are stored.
-README.md: This file with instructions and documentation.
-LICENSE: The project license file (MIT License).
+### File Descriptions:
+- **requirements.txt:** Contains the required dependencies for the project.
+- **simulate_ed.py:** The script that runs the simulation and generates results.
+- **ed_simulation_output/:** Folder where simulation outputs (such as plots and CSV data files) are stored.
+- **README.md:** This file with instructions and documentation.
+- **LICENSE:** The project license file (MIT License).
