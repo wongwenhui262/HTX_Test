@@ -1,57 +1,62 @@
 # HTX_Test
 This folder contains assignment to the test for the HTX Data Scientist Position
 
-Emergency Department Simulation
-Project Overview
-The Emergency Department (ED) Simulation project models patient flow through two areas of a hospital's emergency department:
+# Emergency Department Simulation
 
-Fast Track: Designed for minor injuries and illnesses.
-Main ED: Designed for more critical and complex cases.
-This simulation helps evaluate system performance by analyzing metrics such as wait times, resource utilization, and system bottlenecks. The results provide insights into how the system performs under varying conditions (e.g., increased patient volume) and help design an appropriate system capacity to meet future demands.
+## Project Overview
 
-Features
-Discrete-Event Simulation (DES): Models patient arrivals, triage, treatment, and discharge.
-Performance Metrics: Evaluates wait times, throughput, and resource utilization.
-Scenario Analysis: Tests different staffing and resource allocation strategies to identify optimal system performance.
-Visualization: Generates histograms and 3D surface plots to visualize wait times and resource utilization.
-Prerequisites
-Ensure that you have Python 3.7 or higher installed on your machine. The following Python libraries are required to run the simulation:
+The **Emergency Department (ED) Simulation** project models patient flow through two areas of a hospital's emergency department:
 
-numpy
-scipy
-pandas
-matplotlib
-seaborn
-simpy
-Install Dependencies
-To install all the necessary dependencies, use the requirements.txt file:
+- **Fast Track**: Designed for minor injuries and illnesses.
+- **Main ED**: Designed for more critical and complex cases.
 
-bash
-Copy code
+This simulation helps evaluate system performance by analyzing metrics such as **wait times**, **resource utilization**, and **system bottlenecks**. The results provide insights into how the system performs under varying conditions (e.g., increased patient volume) and help design an appropriate **system capacity** to meet future demands.
+
+---
+
+## Features
+
+- **Discrete-Event Simulation (DES)**: Models patient arrivals, triage, treatment, and discharge.
+- **Performance Metrics**: Evaluates wait times, throughput, and resource utilization.
+- **Scenario Analysis**: Tests different staffing and resource allocation strategies to identify optimal system performance.
+- **Visualization**: Generates histograms and 3D surface plots to visualize wait times and resource utilization.
+
+---
+
+## Prerequisites
+
+Ensure that you have **Python 3.7** or higher installed on your machine. The following Python libraries are required to run the simulation:
+
+- `numpy`
+- `scipy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `simpy`
+
+---
+
+## Install Dependencies
+
+To install all the necessary dependencies, use the `requirements.txt` file:
+
+```bash
 pip install -r requirements.txt
-This will install all required libraries automatically.
 
 Installation Instructions
 1. Clone the Repository
 First, clone the repository to your local machine:
-
-bash
-Copy code
 git clone https://github.com/yourusername/ED-simulation.git
 cd ED-simulation
 
 2. Install Dependencies
 After activating the virtual environment, install the necessary Python libraries by running:
-
-bash
-Copy code
 pip install -r requirements.txt
+
 3. Run the Simulation
 Run the simulation by executing the simulate_ed.py script:
-
-bash
-Copy code
 python simulate_ed.py
+
 This will run the discrete-event simulation and generate output files, including performance metrics and visualizations.
 
 Usage
@@ -63,9 +68,6 @@ Service Times: Average time taken for treatment in the Fast Track and Main ED.
 Staffing Levels: Number of doctors, nurses, and other medical staff available.
 Resource Availability: Number of treatment cubicles available.
 For example, adjusting the number of doctors in the Main ED might look like this:
-
-python
-Copy code
 # Adjust staffing levels
 number_of_nurses_fasttrack = 3
 number_of_doctors_fasttrack = 2
@@ -95,9 +97,6 @@ This helps to identify bottlenecks and areas in the process that need improvemen
 
 File Structure
 Here is the file structure for the project:
-
-bash
-Copy code
 ED-simulation/
 │
 ├── requirements.txt        # List of required Python libraries
@@ -107,6 +106,7 @@ ED-simulation/
 │   ├── throughput_data.csv     # Example output data
 ├── README.md               # Project documentation (this file)
 └── LICENSE                 # Project license file
+
 File Descriptions:
 requirements.txt: Contains the required dependencies for the project.
 simulate_ed.py: The script that runs the simulation and generates results.
