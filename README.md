@@ -130,7 +130,7 @@ ED-simulation/
 
 ### File Descriptions:
 - **requirements.txt:** Contains the required dependencies for the project.
-- **simulate_ed.py:** The script that runs the simulation and generates results.
+- **Emergency_Department_Simulation.ipynb:** The script that runs the simulation and generates results.
 - **ed_simulation_output/:** Folder where simulation outputs (such as plots and CSV data files) are stored.
 - **README.md:** This file with instructions and documentation.
 - **LICENSE:** The project license file (MIT License).
