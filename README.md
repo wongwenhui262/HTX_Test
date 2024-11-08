@@ -74,7 +74,7 @@ This will run the discrete-event simulation and generate output files, including
 
 ### Customizing the Simulation
 
-You can adjust various parameters in the simulate_ed.py script to modify how the simulation runs:
+You can adjust various parameters in the Emergency_Department_Simulation.ipynb script to modify how the simulation runs:
 
 - **Patient Arrival Rates:** How often patients arrive in the ED (can be adjusted for both Fast Track and Main ED).
 - **Service Times:** Average time taken for treatment in the Fast Track and Main ED.
