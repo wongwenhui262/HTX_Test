@@ -65,7 +65,8 @@ pip install -r requirements.txt
 Run the simulation by executing the script:
 
 ```
-python Emergency_Department_Simulation.ipynb
+jupyter notebook Emergency_Department_Simulation.ipynb
+
 ```
 
 This will run the discrete-event simulation and generate output files, including performance metrics and visualizations.
@@ -123,10 +124,9 @@ Here is the file structure for the project:
 ED-simulation/
 │
 ├── requirements.txt        # List of required Python libraries
-├── simulate_ed.py          # Main simulation script
+├── Emergency_Department_Simulation.ipynb          # Main simulation script
 ├── ed_simulation_output/   # Folder containing output files (plots, data, etc.)
 │   ├── wait_time_histogram.png  # Example output plot
-│   ├── throughput_data.csv     # Example output data
 ├── README.md               # Project documentation (this file)
 └── LICENSE                 # Project license file
 ```
