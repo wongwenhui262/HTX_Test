@@ -43,21 +43,22 @@ To install all the necessary dependencies, use the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 
-Installation Instructions
-1. Clone the Repository
+##Installation Instructions
+
+Clone the Repository
 First, clone the repository to your local machine:
 git clone https://github.com/yourusername/ED-simulation.git
 cd ED-simulation
 
-2. Install Dependencies
+##Install Dependencies
 After activating the virtual environment, install the necessary Python libraries by running:
 pip install -r requirements.txt
 
-3. Run the Simulation
-Run the simulation by executing the simulate_ed.py script:
+##Run the Simulation
+Run the simulation by executing the script:
 python simulate_ed.py
 
-This will run the discrete-event simulation and generate output files, including performance metrics and visualizations.
+#This will run the discrete-event simulation and generate output files, including performance metrics and visualizations.
 
 Usage
 Customizing the Simulation
