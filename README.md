@@ -56,7 +56,6 @@ Run the simulation by executing the script on jupyter notebook:
 
 ```
 Emergency_Department_Simulation.ipynb
-
 ```
 
 This will run the discrete-event simulation and generate output files, including performance metrics and visualizations.
