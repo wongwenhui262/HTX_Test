@@ -52,10 +52,10 @@ pip install -r requirements.txt
 
 ## Run the Simulation
 
-Run the simulation by executing the script:
+Run the simulation by executing the script on jupyter notebook:
 
 ```
-jupyter notebook Emergency_Department_Simulation.ipynb
+Emergency_Department_Simulation.ipynb
 
 ```
 
