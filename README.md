@@ -78,7 +78,7 @@ For example, adjusting the number of doctors in the Main ED and Fast Track might
 ```python
 # Adjust staffing levels
 number_nurses_miu = 3
-number_doc_miu = 2
+number_docs_miu = 2
 number_nurses = 5
 number_docs = 4
 ```
