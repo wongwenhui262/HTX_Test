@@ -85,7 +85,7 @@ number_docs = 4
 
 ### Running Different Scenarios
 
-You can run different scenarios to see how changes to staffing levels or patient volume affect performance. This can help you optimize resource allocation and plan for future demand increases.
+Run different scenarios to see how changes to staffing levels or patient volume affect performance to optimize resource allocation and plan for future demand increases.
 
 ---
 
