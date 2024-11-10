@@ -105,20 +105,6 @@ After running the simulation, you will see several outputs:
 
 ---
 
-## File Structure
-
-Here is the file structure for the project:
-
-```
-ED-simulation/
-│
-├── requirements.txt        # List of required Python libraries
-├── Emergency_Department_Simulation.ipynb          # Main simulation script
-├── ed_simulation_output/   # Folder containing output files (plots, data, etc.)
-│   ├── wait_time_histogram.png  # Example output plot
-├── README.md               # Project documentation (this file)
-
-```
 
 ### File Descriptions:
 - **requirements.txt:** Contains the required dependencies for the project.
