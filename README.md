@@ -111,4 +111,5 @@ After running the simulation, you will see several outputs:
 - **Emergency_Department_Simulation.ipynb:** The script that runs the simulation and generates results.
 - **ed_simulation_output:** Folder where simulation outputs (such as plots) are stored.
 - **README.md:** This file with instructions and documentation.
+- **ED_Process_Flowchart.drawio.png:** This file contains the process flowchart.
 
