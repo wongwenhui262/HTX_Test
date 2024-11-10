@@ -109,7 +109,7 @@ After running the simulation, you will see several outputs:
 ### File Descriptions:
 - **requirements.txt:** Contains the required dependencies for the project.
 - **Emergency_Department_Simulation.ipynb:** The script that runs the simulation and generates results.
-- **ed_simulation_output:** Folder where simulation outputs (such as plots) are stored.
+- **Simulation_Model_Algorithm_Writeup.pdf:** File with the writeups on simulation outputs (such as plots).
 - **README.md:** This file with instructions and documentation.
 - **ED_Process_Flowchart.drawio.png:** This file contains the process flowchart.
 
